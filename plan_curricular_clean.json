@@ -1,0 +1,14 @@
+[
+  {
+    "modulo_id": 0,
+    "titulo": "Diagnóstico y Fundamentos OOP en JavaScript",
+    "duracion_horas": 6,
+    "temas": []
+  },
+  {
+    "modulo_id": 1,
+    "titulo": "Single Responsibility Principle (SRP)",
+    "duracion_horas": 12,
+    "temas": []
+  }
+]

@@ -1,0 +1,1043 @@
+{
+  "description": "Domina los principios SOLID, patrones de diseño y TDD aplicados a JavaScript moderno.",
+  "title": "Principios SOLID en JavaScript",
+  "id": "solid-javascript",
+  "modules": [
+    {
+      "modulo_id": 0,
+      "titulo": "Diagnóstico y Fundamentos OOP en JavaScript",
+      "duracion_horas": 6,
+      "temas": [
+        {
+          "tema_id": "0.1",
+          "titulo": "Clases y Composición en JavaScript",
+          "subtemas": [
+            {
+              "subtema_id": "0.1.1",
+              "titulo": "Clases y Prototipos en JavaScript",
+              "tipo": "Mixto",
+              "requiere_codigo": true,
+              "tiempo_minutos": 45
+            },
+            {
+              "subtema_id": "0.1.2",
+              "titulo": "Composición vs Herencia",
+              "tipo": "Práctico",
+              "requiere_codigo": true,
+              "tiempo_minutos": 45
+            }
+          ]
+        },
+        {
+          "tema_id": "0.2",
+          "titulo": "Testing y Code Smells",
+          "subtemas": [
+            {
+              "subtema_id": "0.2.1",
+              "titulo": "Testing Unitario con Jest/Vitest",
+              "tipo": "Práctico",
+              "requiere_codigo": true,
+              "tiempo_minutos": 60
+            },
+            {
+              "subtema_id": "0.2.2",
+              "titulo": "Code Smells Básicos",
+              "tipo": "Teórico-Práctico",
+              "requiere_codigo": false,
+              "tiempo_minutos": 45
+            }
+          ]
+        },
+        {
+          "tema_id": "0.3",
+          "titulo": "Métricas de Calidad",
+          "subtemas": [
+            {
+              "subtema_id": "0.3.1",
+              "titulo": "Métricas de Calidad (Cohesión y Acoplamiento)",
+              "tipo": "Teórico",
+              "requiere_codigo": false,
+              "tiempo_minutos": 45
+            }
+          ]
+        },
+        {
+          "tema_id": "0.4",
+          "titulo": "Evaluación Diagnóstica",
+          "subtemas": [
+            {
+              "subtema_id": "0.4.1",
+              "titulo": "Evaluación Diagnóstica",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modulo_id": 1,
+      "titulo": "Single Responsibility Principle (SRP)",
+      "duracion_horas": 12,
+      "temas": [
+        {
+          "tema_id": "1.1",
+          "titulo": "Fundamentos del SRP",
+          "subtemas": [
+            {
+              "subtema_id": "1.1.1",
+              "titulo": "Definición y Fundamentos del SRP",
+              "tipo": "Teoría",
+              "requiere_codigo": false,
+              "tiempo_minutos": 30
+            },
+            {
+              "subtema_id": "1.1.2",
+              "titulo": "Cohesión y SRP",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 45
+            },
+            {
+              "subtema_id": "1.1.3",
+              "titulo": "Violaciones Comunes del SRP",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 45
+            }
+          ]
+        },
+        {
+          "tema_id": "1.2",
+          "titulo": "Refactoring hacia SRP",
+          "subtemas": [
+            {
+              "subtema_id": "1.2.1",
+              "titulo": "Extract Class",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 90
+            },
+            {
+              "subtema_id": "1.2.2",
+              "titulo": "Extract Method",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 60
+            },
+            {
+              "subtema_id": "1.2.3",
+              "titulo": "Move Method/Field",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 60
+            }
+          ]
+        },
+        {
+          "tema_id": "1.3",
+          "titulo": "SRP en Arquitecturas JavaScript",
+          "subtemas": [
+            {
+              "subtema_id": "1.3.1",
+              "titulo": "SRP en Controladores y Servicios",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 90
+            },
+            {
+              "subtema_id": "1.3.2",
+              "titulo": "SRP en Componentes React/Vue",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 90
+            },
+            {
+              "subtema_id": "1.3.3",
+              "titulo": "Testing de Clases SRP-Compliant",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 90
+            }
+          ]
+        },
+        {
+          "tema_id": "1.4",
+          "titulo": "Ejercicio Integrador SRP",
+          "subtemas": [
+            {
+              "subtema_id": "1.4.1",
+              "titulo": "Proyecto: Sistema de Facturación con SRP",
+              "tipo": "Proyecto",
+              "requiere_codigo": true,
+              "tiempo_minutos": 180
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modulo_id": 2,
+      "titulo": "Open/Closed Principle (OCP)",
+      "duracion_horas": 14,
+      "temas": [
+        {
+          "tema_id": "2.1",
+          "titulo": "Fundamentos del OCP",
+          "subtemas": [
+            {
+              "subtema_id": "2.1.1",
+              "titulo": "Definición y Motivación del OCP",
+              "tipo": "Teoría",
+              "requiere_codigo": false,
+              "tiempo_minutos": 30
+            },
+            {
+              "subtema_id": "2.1.2",
+              "titulo": "Polimorfismo como Mecanismo OCP",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 90
+            },
+            {
+              "subtema_id": "2.1.3",
+              "titulo": "Abstracciones Estables",
+              "tipo": "Teórico-Práctico",
+              "requiere_codigo": true,
+              "tiempo_minutos": 60
+            }
+          ]
+        },
+        {
+          "tema_id": "2.2",
+          "titulo": "Patrones de Diseño OCP",
+          "subtemas": [
+            {
+              "subtema_id": "2.2.1",
+              "titulo": "Strategy Pattern",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 90
+            },
+            {
+              "subtema_id": "2.2.2",
+              "titulo": "Template Method Pattern",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 90
+            },
+            {
+              "subtema_id": "2.2.3",
+              "titulo": "Decorator Pattern",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 90
+            }
+          ]
+        },
+        {
+          "tema_id": "2.3",
+          "titulo": "OCP en JavaScript Moderno",
+          "subtemas": [
+            {
+              "subtema_id": "2.3.1",
+              "titulo": "Plugins y Middleware",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 90
+            },
+            {
+              "subtema_id": "2.3.2",
+              "titulo": "Higher-Order Functions y OCP",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 60
+            },
+            {
+              "subtema_id": "2.3.3",
+              "titulo": "Configuration Objects",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 60
+            }
+          ]
+        },
+        {
+          "tema_id": "2.4",
+          "titulo": "Ejercicio Integrador OCP",
+          "subtemas": [
+            {
+              "subtema_id": "2.4.1",
+              "titulo": "Proyecto: Sistema de Reportes Extensible",
+              "tipo": "Proyecto",
+              "requiere_codigo": true,
+              "tiempo_minutos": 180
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modulo_id": 3,
+      "titulo": "Liskov Substitution Principle (LSP)",
+      "duracion_horas": 13,
+      "temas": [
+        {
+          "tema_id": "3.1",
+          "titulo": "Fundamentos del LSP",
+          "subtemas": [
+            {
+              "subtema_id": "3.1.1",
+              "titulo": "Definición y Contratos",
+              "tipo": "Teoría",
+              "requiere_codigo": false,
+              "tiempo_minutos": 45
+            },
+            {
+              "subtema_id": "3.1.2",
+              "titulo": "Violaciones Clásicas de LSP",
+              "tipo": "Teórico-Práctico",
+              "requiere_codigo": true,
+              "tiempo_minutos": 90
+            },
+            {
+              "subtema_id": "3.1.3",
+              "titulo": "Design by Contract en JavaScript",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 90
+            }
+          ]
+        },
+        {
+          "tema_id": "3.2",
+          "titulo": "Jerarquías LSP-Compliant",
+          "subtemas": [
+            {
+              "subtema_id": "3.2.1",
+              "titulo": "Principio de Sustitución en Herencia",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 120
+            },
+            {
+              "subtema_id": "3.2.2",
+              "titulo": "Covarianza y Contravarianza",
+              "tipo": "Teórico-Práctico",
+              "requiere_codigo": true,
+              "tiempo_minutos": 90
+            },
+            {
+              "subtema_id": "3.2.3",
+              "titulo": "TypeScript y LSP",
+              "tipo": "Teórico-Práctico",
+              "requiere_codigo": true,
+              "tiempo_minutos": 60
+            }
+          ]
+        },
+        {
+          "tema_id": "3.3",
+          "titulo": "Testing de Contratos LSP",
+          "subtemas": [
+            {
+              "subtema_id": "3.3.1",
+              "titulo": "Property-Based Testing",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 90
+            },
+            {
+              "subtema_id": "3.3.2",
+              "titulo": "Abstract Test Cases",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 90
+            }
+          ]
+        },
+        {
+          "tema_id": "3.4",
+          "titulo": "Ejercicio Integrador LSP",
+          "subtemas": [
+            {
+              "subtema_id": "3.4.1",
+              "titulo": "Proyecto: Sistema de Pagos Polimórfico",
+              "tipo": "Proyecto",
+              "requiere_codigo": true,
+              "tiempo_minutos": 120
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modulo_id": 4,
+      "titulo": "Interface Segregation Principle (ISP)",
+      "duracion_horas": 11,
+      "temas": [
+        {
+          "tema_id": "4.1",
+          "titulo": "Fundamentos del ISP",
+          "subtemas": [
+            {
+              "subtema_id": "4.1.1",
+              "titulo": "Definición y Motivación del ISP",
+              "tipo": "Teoría",
+              "requiere_codigo": false,
+              "tiempo_minutos": 30
+            },
+            {
+              "subtema_id": "4.1.2",
+              "titulo": "Fat Interfaces y Code Smells",
+              "tipo": "Teórico-Práctico",
+              "requiere_codigo": true,
+              "tiempo_minutos": 60
+            },
+            {
+              "subtema_id": "4.1.3",
+              "titulo": "Interfaces en JavaScript (Duck Typing)",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 60
+            }
+          ]
+        },
+        {
+          "tema_id": "4.2",
+          "titulo": "Segregación de Interfaces",
+          "subtemas": [
+            {
+              "subtema_id": "4.2.1",
+              "titulo": "Role Interfaces",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 90
+            },
+            {
+              "subtema_id": "4.2.2",
+              "titulo": "Interface Adapters",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 90
+            },
+            {
+              "subtema_id": "4.2.3",
+              "titulo": "Mixin Composition",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 90
+            }
+          ]
+        },
+        {
+          "tema_id": "4.3",
+          "titulo": "ISP en TypeScript",
+          "subtemas": [
+            {
+              "subtema_id": "4.3.1",
+              "titulo": "TypeScript Interfaces y Types",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 90
+            },
+            {
+              "subtema_id": "4.3.2",
+              "titulo": "Utility Types para ISP",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 60
+            }
+          ]
+        },
+        {
+          "tema_id": "4.4",
+          "titulo": "Ejercicio Integrador ISP",
+          "subtemas": [
+            {
+              "subtema_id": "4.4.1",
+              "titulo": "Proyecto: API de E-commerce con ISP",
+              "tipo": "Proyecto",
+              "requiere_codigo": true,
+              "tiempo_minutos": 120
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modulo_id": 5,
+      "titulo": "Dependency Inversion Principle (DIP)",
+      "duracion_horas": 15,
+      "temas": [
+        {
+          "tema_id": "5.1",
+          "titulo": "Fundamentos del DIP",
+          "subtemas": [
+            {
+              "subtema_id": "5.1.1",
+              "titulo": "Definición y Arquitectura en Capas",
+              "tipo": "Teoría",
+              "requiere_codigo": false,
+              "tiempo_minutos": 45
+            },
+            {
+              "subtema_id": "5.1.2",
+              "titulo": "Abstracciones Estables vs Concretas",
+              "tipo": "Teórico-Práctico",
+              "requiere_codigo": true,
+              "tiempo_minutos": 90
+            },
+            {
+              "subtema_id": "5.1.3",
+              "titulo": "Acoplamiento y Métricas",
+              "tipo": "Teórico",
+              "requiere_codigo": false,
+              "tiempo_minutos": 45
+            }
+          ]
+        },
+        {
+          "tema_id": "5.2",
+          "titulo": "Dependency Injection",
+          "subtemas": [
+            {
+              "subtema_id": "5.2.1",
+              "titulo": "Constructor Injection",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 90
+            },
+            {
+              "subtema_id": "5.2.2",
+              "titulo": "Setter/Method Injection",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 60
+            },
+            {
+              "subtema_id": "5.2.3",
+              "titulo": "Property Injection",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 45
+            }
+          ]
+        },
+        {
+          "tema_id": "5.3",
+          "titulo": "Inversion of Control Containers",
+          "subtemas": [
+            {
+              "subtema_id": "5.3.1",
+              "titulo": "Manual DI Container",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 120
+            },
+            {
+              "subtema_id": "5.3.2",
+              "titulo": "InversifyJS",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 90
+            },
+            {
+              "subtema_id": "5.3.3",
+              "titulo": "NestJS Dependency Injection",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 90
+            }
+          ]
+        },
+        {
+          "tema_id": "5.4",
+          "titulo": "Patrones Relacionados con DIP",
+          "subtemas": [
+            {
+              "subtema_id": "5.4.1",
+              "titulo": "Factory Pattern",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 90
+            },
+            {
+              "subtema_id": "5.4.2",
+              "titulo": "Service Locator (Anti-pattern)",
+              "tipo": "Teórico-Práctico",
+              "requiere_codigo": true,
+              "tiempo_minutos": 60
+            },
+            {
+              "subtema_id": "5.4.3",
+              "titulo": "Ports and Adapters (Hexagonal)",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 120
+            }
+          ]
+        },
+        {
+          "tema_id": "5.5",
+          "titulo": "Testing con DIP",
+          "subtemas": [
+            {
+              "subtema_id": "5.5.1",
+              "titulo": "Mocking de Dependencias",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 90
+            },
+            {
+              "subtema_id": "5.5.2",
+              "titulo": "Test Doubles y DIP",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 60
+            }
+          ]
+        },
+        {
+          "tema_id": "5.6",
+          "titulo": "Ejercicio Integrador DIP",
+          "subtemas": [
+            {
+              "subtema_id": "5.6.1",
+              "titulo": "Proyecto: Sistema de Notificaciones con DIP",
+              "tipo": "Proyecto",
+              "requiere_codigo": true,
+              "tiempo_minutos": 180
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modulo_id": 6,
+      "titulo": "Integración SOLID y Patrones de Diseño",
+      "duracion_horas": 14,
+      "temas": [
+        {
+          "tema_id": "6.1",
+          "titulo": "Patrones Creacionales",
+          "subtemas": [
+            {
+              "subtema_id": "6.1.1",
+              "titulo": "Factory Method y SOLID",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 90
+            },
+            {
+              "subtema_id": "6.1.2",
+              "titulo": "Abstract Factory",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 90
+            },
+            {
+              "subtema_id": "6.1.3",
+              "titulo": "Builder Pattern",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 90
+            },
+            {
+              "subtema_id": "6.1.4",
+              "titulo": "Singleton (Anti-pattern)",
+              "tipo": "Teórico-Práctico",
+              "requiere_codigo": true,
+              "tiempo_minutos": 60
+            }
+          ]
+        },
+        {
+          "tema_id": "6.2",
+          "titulo": "Patrones Estructurales",
+          "subtemas": [
+            {
+              "subtema_id": "6.2.1",
+              "titulo": "Adapter Pattern y ISP",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 90
+            },
+            {
+              "subtema_id": "6.2.2",
+              "titulo": "Composite Pattern",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 90
+            },
+            {
+              "subtema_id": "6.2.3",
+              "titulo": "Proxy Pattern",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 90
+            }
+          ]
+        },
+        {
+          "tema_id": "6.3",
+          "titulo": "Patrones de Comportamiento",
+          "subtemas": [
+            {
+              "subtema_id": "6.3.1",
+              "titulo": "Observer Pattern",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 90
+            },
+            {
+              "subtema_id": "6.3.2",
+              "titulo": "Command Pattern",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 90
+            },
+            {
+              "subtema_id": "6.3.3",
+              "titulo": "Chain of Responsibility",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 90
+            }
+          ]
+        },
+        {
+          "tema_id": "6.4",
+          "titulo": "Ejercicio Integrador Patrones",
+          "subtemas": [
+            {
+              "subtema_id": "6.4.1",
+              "titulo": "Proyecto: Framework de Validación",
+              "tipo": "Proyecto",
+              "requiere_codigo": true,
+              "tiempo_minutos": 180
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modulo_id": 7,
+      "titulo": "Test-Driven Development y SOLID",
+      "duracion_horas": 12,
+      "temas": [
+        {
+          "tema_id": "7.1",
+          "titulo": "TDD como Driver de Diseño",
+          "subtemas": [
+            {
+              "subtema_id": "7.1.1",
+              "titulo": "Red-Green-Refactor y SOLID",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 90
+            },
+            {
+              "subtema_id": "7.1.2",
+              "titulo": "Test Smells y Violaciones SOLID",
+              "tipo": "Teórico-Práctico",
+              "requiere_codigo": true,
+              "tiempo_minutos": 60
+            },
+            {
+              "subtema_id": "7.1.3",
+              "titulo": "Testabilidad como Métrica de Diseño",
+              "tipo": "Teórico-Práctico",
+              "requiere_codigo": true,
+              "tiempo_minutos": 60
+            }
+          ]
+        },
+        {
+          "tema_id": "7.2",
+          "titulo": "Testing de cada Principio SOLID",
+          "subtemas": [
+            {
+              "subtema_id": "7.2.1",
+              "titulo": "Testing SRP",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 60
+            },
+            {
+              "subtema_id": "7.2.2",
+              "titulo": "Testing OCP",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 60
+            },
+            {
+              "subtema_id": "7.2.3",
+              "titulo": "Testing LSP",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 90
+            },
+            {
+              "subtema_id": "7.2.4",
+              "titulo": "Testing ISP",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 60
+            },
+            {
+              "subtema_id": "7.2.5",
+              "titulo": "Testing DIP",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 90
+            }
+          ]
+        },
+        {
+          "tema_id": "7.3",
+          "titulo": "Técnicas Avanzadas de Testing",
+          "subtemas": [
+            {
+              "subtema_id": "7.3.1",
+              "titulo": "Contract Testing",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 90
+            },
+            {
+              "subtema_id": "7.3.2",
+              "titulo": "Mutation Testing",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 60
+            }
+          ]
+        },
+        {
+          "tema_id": "7.4",
+          "titulo": "Ejercicio Integrador TDD",
+          "subtemas": [
+            {
+              "subtema_id": "7.4.1",
+              "titulo": "Proyecto: API REST con TDD",
+              "tipo": "Proyecto",
+              "requiere_codigo": true,
+              "tiempo_minutos": 180
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modulo_id": 8,
+      "titulo": "Refactoring Sistemático hacia SOLID",
+      "duracion_horas": 10,
+      "temas": [
+        {
+          "tema_id": "8.1",
+          "titulo": "Análisis de Código Legacy",
+          "subtemas": [
+            {
+              "subtema_id": "8.1.1",
+              "titulo": "Code Smells y SOLID",
+              "tipo": "Teórico-Práctico",
+              "requiere_codigo": true,
+              "tiempo_minutos": 90
+            },
+            {
+              "subtema_id": "8.1.2",
+              "titulo": "Métricas de Calidad Automatizadas",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 60
+            },
+            {
+              "subtema_id": "8.1.3",
+              "titulo": "Dependency Analysis",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 60
+            }
+          ]
+        },
+        {
+          "tema_id": "8.2",
+          "titulo": "Estrategias de Refactoring",
+          "subtemas": [
+            {
+              "subtema_id": "8.2.1",
+              "titulo": "Strangler Fig Pattern",
+              "tipo": "Teórico-Práctico",
+              "requiere_codigo": true,
+              "tiempo_minutos": 90
+            },
+            {
+              "subtema_id": "8.2.2",
+              "titulo": "Branch by Abstraction",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 90
+            },
+            {
+              "subtema_id": "8.2.3",
+              "titulo": "Parallel Change (Expand-Contract)",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 90
+            }
+          ]
+        },
+        {
+          "tema_id": "8.3",
+          "titulo": "Priorización de Refactoring",
+          "subtemas": [
+            {
+              "subtema_id": "8.3.1",
+              "titulo": "Hotspot Analysis",
+              "tipo": "Teórico-Práctico",
+              "requiere_codigo": false,
+              "tiempo_minutos": 60
+            },
+            {
+              "subtema_id": "8.3.2",
+              "titulo": "ROI de Refactoring",
+              "tipo": "Teórico",
+              "requiere_codigo": false,
+              "tiempo_minutos": 45
+            }
+          ]
+        },
+        {
+          "tema_id": "8.4",
+          "titulo": "Ejercicio Integrador Refactoring",
+          "subtemas": [
+            {
+              "subtema_id": "8.4.1",
+              "titulo": "Proyecto: Refactoring de Aplicación Legacy",
+              "tipo": "Proyecto",
+              "requiere_codigo": true,
+              "tiempo_minutos": 180
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modulo_id": 9,
+      "titulo": "Arquitecturas Limpias con SOLID",
+      "duracion_horas": 8,
+      "temas": [
+        {
+          "tema_id": "9.1",
+          "titulo": "Clean Architecture",
+          "subtemas": [
+            {
+              "subtema_id": "9.1.1",
+              "titulo": "Capas y Dependency Rule",
+              "tipo": "Teórico-Práctico",
+              "requiere_codigo": true,
+              "tiempo_minutos": 90
+            },
+            {
+              "subtema_id": "9.1.2",
+              "titulo": "Entities, Use Cases, Adapters",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 120
+            },
+            {
+              "subtema_id": "9.1.3",
+              "titulo": "Framework Independence",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 90
+            }
+          ]
+        },
+        {
+          "tema_id": "9.2",
+          "titulo": "Domain-Driven Design y SOLID",
+          "subtemas": [
+            {
+              "subtema_id": "9.2.1",
+              "titulo": "Aggregates y SRP",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 90
+            },
+            {
+              "subtema_id": "9.2.2",
+              "titulo": "Repositories y DIP",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 90
+            }
+          ]
+        },
+        {
+          "tema_id": "9.3",
+          "titulo": "Microservicios y SOLID",
+          "subtemas": [
+            {
+              "subtema_id": "9.3.1",
+              "titulo": "SRP a Nivel de Servicio",
+              "tipo": "Teórico-Práctico",
+              "requiere_codigo": false,
+              "tiempo_minutos": 60
+            },
+            {
+              "subtema_id": "9.3.2",
+              "titulo": "API Contracts y ISP",
+              "tipo": "Práctica",
+              "requiere_codigo": true,
+              "tiempo_minutos": 60
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modulo_id": 10,
+      "titulo": "Proyecto Integrador Final",
+      "duracion_horas": 10,
+      "temas": [
+        {
+          "tema_id": "10.1",
+          "titulo": "Sistema de Gestión de Contenidos (CMS)",
+          "subtemas": [
+            {
+              "subtema_id": "10.1.1",
+              "titulo": "Análisis y Diseño Arquitectónico",
+              "tipo": "Diseño",
+              "requiere_codigo": false,
+              "tiempo_minutos": 120
+            },
+            {
+              "subtema_id": "10.1.2",
+              "titulo": "Implementación del Core",
+              "tipo": "Proyecto",
+              "requiere_codigo": true,
+              "tiempo_minutos": 240
+            },
+            {
+              "subtema_id": "10.1.3",
+              "titulo": "Sistema de Plugins Extensible",
+              "tipo": "Proyecto",
+              "requiere_codigo": true,
+              "tiempo_minutos": 120
+            },
+            {
+              "subtema_id": "10.1.4",
+              "titulo": "Testing y Documentación",
+              "tipo": "Proyecto",
+              "requiere_codigo": true,
+              "tiempo_minutos": 120
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
