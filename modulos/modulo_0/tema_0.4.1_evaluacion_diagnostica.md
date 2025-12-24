@@ -20,9 +20,9 @@ Esta evaluación mide tu nivel actual en los conceptos fundamentales necesarios 
 
 ---
 
-## PARTE 1: POO en JavaScript (30 puntos)
+## PARTE 1. POO en JavaScript (30 puntos)
 
-### Ejercicio 1.1: Clases y Prototipos (10 puntos)
+### Ejercicio 1.1. Clases y Prototipos (10 puntos)
 
 Implementa una clase `BankAccount` con las siguientes especificaciones:
 
@@ -264,7 +264,7 @@ console.log('✓ Exercise 1.3 passed');
 
 ## PARTE 2: Testing (25 puntos)
 
-### Ejercicio 2.1: Tests Unitarios (15 puntos)
+### Ejercicio 2.1. Tests Unitarios (15 puntos)
 
 Escribe tests para la siguiente función usando Jest o Vitest:
 
@@ -417,7 +417,7 @@ describe('NotificationService', () => {
 
 ## PARTE 3: Code Smells y Refactoring (25 puntos)
 
-### Ejercicio 3.1: Identificar y corregir Code Smells (15 puntos)
+### Ejercicio 3.1. Identificar y corregir Code Smells (15 puntos)
 
 Identifica los code smells en este código y refactorízalo:
 
@@ -556,7 +556,7 @@ class UserController {
 
 ## PARTE 4: Métricas de Calidad (20 puntos)
 
-### Ejercicio 4.1: Calcular métricas (10 puntos)
+### Ejercicio 4.1. Calcular métricas (10 puntos)
 
 Para la siguiente clase, calcula:
 
@@ -676,7 +676,7 @@ function calculateDiscount(user, product, quantity, promoCode) {
 ### Próximos pasos:
 
 Si aprobaste (≥70%), estás listo para:
-**Módulo 1: Single Responsibility Principle (SRP)**
+**Módulo 1. Single Responsibility Principle (SRP)**
 
 Si no aprobaste, revisa:
 - Clases y prototipos

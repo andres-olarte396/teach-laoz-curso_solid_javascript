@@ -73,37 +73,37 @@ Se ha completado la **arquitectura curricular completa** y la **producción del 
 CURSO SOLID APLICADO EN JAVASCRIPT (105 horas)
 │
 ├── MÓDULO 0: Diagnóstico y Fundamentos OOP (6h) ✅ COMPLETADO
-│   ├── Tema 0.1: Clases y Composición
+│   ├── Tema 0.1. Clases y Composición
 │   ├── Tema 0.2: Testing y Code Smells
 │   ├── Tema 0.3: Métricas de Calidad
 │   └── Tema 0.4: Evaluación Diagnóstica
 │
-├── MÓDULO 1: Single Responsibility Principle (12h) ⏸️ PENDIENTE
-│   ├── Tema 1.1: Fundamentos del SRP (3 subtemas)
+├── MÓDULO 1. Single Responsibility Principle (12h) ⏸️ PENDIENTE
+│   ├── Tema 1.1. Fundamentos del SRP (3 subtemas)
 │   ├── Tema 1.2: Refactoring hacia SRP (3 subtemas)
 │   ├── Tema 1.3: SRP en Arquitecturas JS (3 subtemas)
 │   └── Tema 1.4: Proyecto Integrador SRP
 │
 ├── MÓDULO 2: Open/Closed Principle (14h) ⏸️ PENDIENTE
-│   ├── Tema 2.1: Fundamentos del OCP (3 subtemas)
+│   ├── Tema 2.1. Fundamentos del OCP (3 subtemas)
 │   ├── Tema 2.2: Patrones de Diseño OCP (3 subtemas)
 │   ├── Tema 2.3: OCP en JavaScript Moderno (3 subtemas)
 │   └── Tema 2.4: Proyecto Integrador OCP
 │
 ├── MÓDULO 3: Liskov Substitution Principle (13h) ⏸️ PENDIENTE
-│   ├── Tema 3.1: Fundamentos del LSP (3 subtemas)
+│   ├── Tema 3.1. Fundamentos del LSP (3 subtemas)
 │   ├── Tema 3.2: Jerarquías LSP-Compliant (3 subtemas)
 │   ├── Tema 3.3: Testing de Contratos LSP (2 subtemas)
 │   └── Tema 3.4: Proyecto Integrador LSP
 │
 ├── MÓDULO 4: Interface Segregation Principle (11h) ⏸️ PENDIENTE
-│   ├── Tema 4.1: Fundamentos del ISP (3 subtemas)
+│   ├── Tema 4.1. Fundamentos del ISP (3 subtemas)
 │   ├── Tema 4.2: Segregación de Interfaces (3 subtemas)
 │   ├── Tema 4.3: ISP en TypeScript (2 subtemas)
 │   └── Tema 4.4: Proyecto Integrador ISP
 │
 ├── MÓDULO 5: Dependency Inversion Principle (15h) ⏸️ PENDIENTE
-│   ├── Tema 5.1: Fundamentos del DIP (3 subtemas)
+│   ├── Tema 5.1. Fundamentos del DIP (3 subtemas)
 │   ├── Tema 5.2: Dependency Injection (3 subtemas)
 │   ├── Tema 5.3: IoC Containers (3 subtemas)
 │   ├── Tema 5.4: Patrones Relacionados (3 subtemas)
@@ -111,30 +111,30 @@ CURSO SOLID APLICADO EN JAVASCRIPT (105 horas)
 │   └── Tema 5.6: Proyecto Integrador DIP
 │
 ├── MÓDULO 6: Integración SOLID y Patrones (14h) ⏸️ PENDIENTE
-│   ├── Tema 6.1: Patrones Creacionales (4 subtemas)
+│   ├── Tema 6.1. Patrones Creacionales (4 subtemas)
 │   ├── Tema 6.2: Patrones Estructurales (3 subtemas)
 │   ├── Tema 6.3: Patrones de Comportamiento (3 subtemas)
 │   └── Tema 6.4: Proyecto Integrador Patrones
 │
 ├── MÓDULO 7: Test-Driven Development y SOLID (12h) ⏸️ PENDIENTE
-│   ├── Tema 7.1: TDD como Driver de Diseño (3 subtemas)
+│   ├── Tema 7.1. TDD como Driver de Diseño (3 subtemas)
 │   ├── Tema 7.2: Testing de cada Principio (5 subtemas)
 │   ├── Tema 7.3: Técnicas Avanzadas (2 subtemas)
 │   └── Tema 7.4: Proyecto Integrador TDD
 │
 ├── MÓDULO 8: Refactoring Sistemático (10h) ⏸️ PENDIENTE
-│   ├── Tema 8.1: Análisis de Código Legacy (3 subtemas)
+│   ├── Tema 8.1. Análisis de Código Legacy (3 subtemas)
 │   ├── Tema 8.2: Estrategias de Refactoring (3 subtemas)
 │   ├── Tema 8.3: Priorización (2 subtemas)
 │   └── Tema 8.4: Proyecto Integrador Refactoring
 │
 ├── MÓDULO 9: Arquitecturas Limpias (8h) ⏸️ PENDIENTE
-│   ├── Tema 9.1: Clean Architecture (3 subtemas)
+│   ├── Tema 9.1. Clean Architecture (3 subtemas)
 │   ├── Tema 9.2: Domain-Driven Design (2 subtemas)
 │   └── Tema 9.3: Microservicios y SOLID (2 subtemas)
 │
 └── MÓDULO 10: Proyecto Integrador Final (10h) ⏸️ PENDIENTE
-    └── Tema 10.1: Sistema CMS Modular (4 subtemas)
+    └── Tema 10.1. Sistema CMS Modular (4 subtemas)
 ```
 
 ---
@@ -233,7 +233,7 @@ CURSO SOLID APLICADO EN JAVASCRIPT (105 horas)
 
 ### Para Completar el Curso (86 subtemas restantes)
 
-#### Opción 1: Generación Manual (Alta calidad, tiempo intensivo)
+#### Opción 1. Generación Manual (Alta calidad, tiempo intensivo)
 - **Tiempo estimado**: ~30-40 horas de trabajo
 - **Ventaja**: Control total sobre calidad y profundidad
 - **Desventaja**: Requiere dedicación continua

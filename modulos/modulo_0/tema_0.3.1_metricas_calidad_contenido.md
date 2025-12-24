@@ -38,7 +38,7 @@ SOLID maximiza cohesión y minimiza acoplamiento.
 
 ## Implementación práctica
 
-### Ejemplo 1: Alta vs Baja Cohesión
+### Ejemplo 1. Alta vs Baja Cohesión
 
 ```javascript
 // ❌ BAJA COHESIÓN (clase hace demasiado)
@@ -48,7 +48,7 @@ class User {
     this.email = email;
   }
 
-  // Responsabilidad 1: Validación
+  // Responsabilidad 1. Validación
   validateEmail() {
     return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(this.email);
   }

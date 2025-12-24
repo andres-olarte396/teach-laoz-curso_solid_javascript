@@ -30,7 +30,7 @@
 
 ## CALENDARIO SEMANAL DETALLADO
 
-### SEMANA 1: FUNDAMENTOS Y SINGLE RESPONSIBILITY (PARTE 1)
+### SEMANA 1. FUNDAMENTOS Y SINGLE RESPONSIBILITY (PARTE 1)
 
 **Objetivos de la semana**: Completar diagnóstico, validar prerrequisitos e iniciar SRP
 
@@ -370,7 +370,7 @@
 
 ---
 
-### SEMANA 11: ARQUITECTURAS LIMPIAS
+### SEMANA 11. ARQUITECTURAS LIMPIAS
 
 **Objetivos de la semana**: Aplicar SOLID a nivel arquitectónico
 
@@ -487,7 +487,7 @@
 
 ### Organización Semanal Sugerida
 
-**Opción 1: Estudio Diario Distribuido**
+**Opción 1. Estudio Diario Distribuido**
 - Lunes a Viernes: 2 horas diarias (10h/semana)
 - Fines de semana: Proyectos integradores (3-4h cuando aplique)
 - Ideal para: Profesionales trabajando tiempo completo

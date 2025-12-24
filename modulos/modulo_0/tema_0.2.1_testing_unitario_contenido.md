@@ -55,7 +55,7 @@ test('descripción de lo que se prueba', () => {
 ### Instalación y configuración
 
 ```bash
-# Opción 1: Jest (más maduro)
+# Opción 1. Jest (más maduro)
 npm install --save-dev jest
 
 # Opción 2: Vitest (más rápido, ESM nativo)
@@ -73,7 +73,7 @@ npm install --save-dev vitest
 }
 ```
 
-### Ejemplo 1: Funciones puras (fácil de testear)
+### Ejemplo 1. Funciones puras (fácil de testear)
 
 ```javascript
 // calculator.js
@@ -371,7 +371,7 @@ userService.js | 95.5    | 87.5     | 100     | 95.2    |
 
 ## Errores frecuentes
 
-### ❌ Error 1: Tests dependientes
+### ❌ Error 1. Tests dependientes
 
 ```javascript
 // Mal: Tests que dependen de orden

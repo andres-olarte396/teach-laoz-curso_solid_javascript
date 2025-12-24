@@ -32,7 +32,7 @@ Medir cohesión te permite detectar violaciones de SRP objetivamente, sin depend
 
 ## Implementación práctica
 
-### Ejemplo 1: Niveles de cohesión
+### Ejemplo 1. Niveles de cohesión
 
 ```javascript
 // ❌ COHESIÓN COINCIDENTAL (nivel 1 - peor)
@@ -247,7 +247,7 @@ class UserManager {
     this.logger = new Logger();
   }
 
-  // Grupo 1: Usa users
+  // Grupo 1. Usa users
   addUser(user) {
     this.users.push(user);
   }
@@ -371,7 +371,7 @@ class ActivityLogger {
 ```javascript
 // Proceso sistemático de refactoring
 
-// PASO 1: Identificar grupos de métodos cohesivos
+// PASO 1. Identificar grupos de métodos cohesivos
 class OrderService {
   // Grupo A: Validación (usan: validationRules)
   validateItems() { /* ... */ }

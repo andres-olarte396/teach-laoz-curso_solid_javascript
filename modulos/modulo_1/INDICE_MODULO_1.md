@@ -1,4 +1,4 @@
-# Módulo 1: Single Responsibility Principle (SRP)
+# Módulo 1. Single Responsibility Principle (SRP)
 
 **Duración total**: 12 horas
 **Objetivo**: Dominar el principio de responsabilidad única, identificar violaciones y aplicar refactorings para cumplirlo
@@ -7,7 +7,7 @@
 
 ## Contenido del Módulo
 
-### Tema 1.1: Fundamentos del SRP
+### Tema 1.1. Fundamentos del SRP
 
 ✅ **1.1.1 - Definición y Fundamentos del SRP** (30 min)
 - Definición de Robert C. Martin

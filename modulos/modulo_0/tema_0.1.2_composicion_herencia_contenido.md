@@ -91,7 +91,7 @@ const robot = new Component([flying, walking]);
 
 ## Implementación práctica
 
-### Ejemplo 1: Problema con Herencia (God Object)
+### Ejemplo 1. Problema con Herencia (God Object)
 
 ```javascript
 // ❌ Problema: Jerarquía rígida
@@ -307,7 +307,7 @@ console.log('✓ Composition tests passed');
 
 ## Errores frecuentes
 
-### ❌ Error 1: Herencia para reutilización de código
+### ❌ Error 1. Herencia para reutilización de código
 
 ```javascript
 // Mal uso de herencia

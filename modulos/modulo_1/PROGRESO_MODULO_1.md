@@ -1,4 +1,4 @@
-# Progreso Módulo 1: Single Responsibility Principle (SRP)
+# Progreso Módulo 1. Single Responsibility Principle (SRP)
 
 **Duración**: 12 horas  
 **Estado actual**: 44% COMPLETADO (4/9 subtemas)
@@ -7,7 +7,7 @@
 
 ## ✅ Subtemas Completados (4/9)
 
-### Tema 1.1: Fundamentos del SRP (3/3 - COMPLETADO)
+### Tema 1.1. Fundamentos del SRP (3/3 - COMPLETADO)
 
 1. ✅ **1.1.1 - Definición y Fundamentos del SRP** (30 min)
    - Archivo: `tema_1.1.1_definicion_fundamentos_srp_contenido.md` (16 KB)

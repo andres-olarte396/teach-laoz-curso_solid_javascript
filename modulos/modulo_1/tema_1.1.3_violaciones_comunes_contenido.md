@@ -10,7 +10,7 @@ Conocer las **violaciones típicas de SRP** te permite identificarlas rápidamen
 
 Martin Fowler cataloga estas violaciones como **code smells** - señales de que el diseño necesita refactoring.
 
-## Violación 1: God Object (Objeto Dios)
+## Violación 1. God Object (Objeto Dios)
 
 ### Definición
 
@@ -40,7 +40,7 @@ class OrderManager {
     this.analyticsService = new AnalyticsService();
   }
 
-  // Responsabilidad 1: Validación
+  // Responsabilidad 1. Validación
   validateOrder(order) {
     if (!order.customer) throw new Error('No customer');
     if (!order.items.length) throw new Error('No items');
@@ -424,7 +424,7 @@ class Employee {
     this.department = department;
   }
 
-  // RAZÓN DE CAMBIO 1: Reglas de nómina cambian
+  // RAZÓN DE CAMBIO 1. Reglas de nómina cambian
   calculatePay() {
     let pay = this.salary;
     if (this.department === 'Sales') {
@@ -465,7 +465,7 @@ class Employee {
 ```javascript
 // ✅ SEPARAR POR RAZÓN DE CAMBIO
 
-// RAZÓN 1: Reglas de nómina
+// RAZÓN 1. Reglas de nómina
 class PayrollCalculator {
   calculatePay(employee) {
     let pay = employee.salary;
@@ -546,7 +546,7 @@ class Employee {
 // ❌ SHOTGUN SURGERY
 // Agregar soporte para nueva moneda requiere cambios en múltiples lugares
 
-// Archivo 1: product.js
+// Archivo 1. product.js
 class Product {
   constructor(name, priceUSD) {
     this.name = name;

@@ -68,7 +68,7 @@ Donde **actor** = grupo de usuarios o stakeholders que requieren cambios especí
 // ❌ Múltiples razones para cambiar
 class Employee {
   calculatePay() {
-    // Razón 1: CFO cambia reglas de pago
+    // Razón 1. CFO cambia reglas de pago
   }
 
   reportHours() {
@@ -102,7 +102,7 @@ class EmployeeRepository {
 
 ## Implementación práctica
 
-### Ejemplo 1: Violación clásica de SRP
+### Ejemplo 1. Violación clásica de SRP
 
 ```javascript
 // ❌ VIOLACIÓN DE SRP: Clase con múltiples responsabilidades
@@ -113,7 +113,7 @@ class User {
     this.password = password;
   }
 
-  // Responsabilidad 1: Validación de datos
+  // Responsabilidad 1. Validación de datos
   validateEmail() {
     const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!regex.test(this.email)) {
@@ -173,7 +173,7 @@ class User {
 ```javascript
 // ✅ SRP APLICADO: Separación de responsabilidades
 
-// RESPONSABILIDAD 1: Validación
+// RESPONSABILIDAD 1. Validación
 class UserValidator {
   static validateEmail(email) {
     const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -519,7 +519,7 @@ class ReportGenerator {
 
 ```javascript
 class ProductService {
-  // Grupo 1: Gestión de productos
+  // Grupo 1. Gestión de productos
   createProduct(data) { /* usa: database */ }
   updateProduct(id, data) { /* usa: database */ }
   deleteProduct(id) { /* usa: database */ }
@@ -538,7 +538,7 @@ class ProductService {
 
 ## Errores frecuentes
 
-### ❌ Error 1: SRP extremo (sobre-ingeniería)
+### ❌ Error 1. SRP extremo (sobre-ingeniería)
 
 ```javascript
 // Demasiado granular (innecesario)
@@ -587,7 +587,7 @@ class AuthenticationService {
 // Separación de responsabilidades en Stripe SDK
 const stripe = require('stripe')('sk_test_...');
 
-// Responsabilidad 1: Gestión de clientes
+// Responsabilidad 1. Gestión de clientes
 stripe.customers.create({ email, name });
 stripe.customers.retrieve(customerId);
 

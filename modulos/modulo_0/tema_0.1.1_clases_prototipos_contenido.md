@@ -122,7 +122,7 @@ FUNCIÓN CrearObjeto(Constructor, argumentos):
 
 ### Implementación en JavaScript
 
-#### Ejemplo 1: Función Constructora
+#### Ejemplo 1. Función Constructora
 
 ```javascript
 // Constructor
@@ -229,7 +229,7 @@ console.log(Vehicle.compare(car1, car2)); // -2 (car1 es más antiguo)
 ### Casos de prueba
 
 ```javascript
-// Test 1: Crear instancias
+// Test 1. Crear instancias
 const v1 = new Vehicle('Tesla', 'Model 3', 2023);
 console.assert(v1.brand === 'Tesla', 'Brand should be Tesla');
 console.assert(v1.year === 2023, 'Year should be 2023');
@@ -272,7 +272,7 @@ console.log('✓ All tests passed');
 
 ## Variantes y optimizaciones
 
-### Variante 1: Object.create() (creación explícita de prototipos)
+### Variante 1. Object.create() (creación explícita de prototipos)
 
 ```javascript
 const animalMethods = {
@@ -326,7 +326,7 @@ console.log(user.validatePassword('secret123')); // true
 
 ## Errores frecuentes
 
-### ❌ Error 1: Olvidar `new` al crear instancias
+### ❌ Error 1. Olvidar `new` al crear instancias
 
 ```javascript
 function Person(name) {
@@ -344,7 +344,7 @@ console.log(window.name); // 'Alice' (¡contaminación global!)
 ### ✅ Solución correcta
 
 ```javascript
-// Opción 1: Usar new
+// Opción 1. Usar new
 const alice = new Person('Alice');
 
 // Opción 2: Hacer el constructor seguro
@@ -439,7 +439,7 @@ graph TD
 
 ## Aplicaciones reales
 
-### Aplicación 1: Frameworks de UI (React, Vue)
+### Aplicación 1. Frameworks de UI (React, Vue)
 
 **Contexto**: Los componentes de clase en React extienden `React.Component`
 

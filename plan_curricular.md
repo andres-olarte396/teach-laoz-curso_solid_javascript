@@ -133,12 +133,12 @@ graph TD
 
 ---
 
-### MÓDULO 1: Single Responsibility Principle (SRP)
+### MÓDULO 1. Single Responsibility Principle (SRP)
 
 **Duración**: 12 horas
 **Objetivo**: Diseñar clases con responsabilidad única, identificando violaciones mediante análisis de cohesión y ejecutando refactorizaciones que aumenten mantenibilidad
 
-#### TEMA 1.1: Fundamentos del SRP
+#### TEMA 1.1. Fundamentos del SRP
 
 **Objetivo del Tema**: Comprender el principio de responsabilidad única y su impacto en cohesión
 
@@ -223,7 +223,7 @@ graph TD
 **Duración**: 14 horas
 **Objetivo**: Diseñar sistemas extensibles sin modificar código existente, aplicando polimorfismo y patrones estrategia/template
 
-#### TEMA 2.1: Fundamentos del OCP
+#### TEMA 2.1. Fundamentos del OCP
 
 **Objetivo del Tema**: Comprender el principio abierto/cerrado y sus mecanismos de implementación
 
@@ -308,7 +308,7 @@ graph TD
 **Duración**: 13 horas
 **Objetivo**: Diseñar jerarquías de herencia que respeten contratos, evitando violaciones LSP mediante precondiciones, postcondiciones e invariantes
 
-#### TEMA 3.1: Fundamentos del LSP
+#### TEMA 3.1. Fundamentos del LSP
 
 **Objetivo del Tema**: Comprender sustitución de Liskov y contratos comportamentales
 
@@ -387,7 +387,7 @@ graph TD
 **Duración**: 11 horas
 **Objetivo**: Diseñar interfaces cohesivas y específicas, evitando interfaces gordas mediante segregación y role interfaces
 
-#### TEMA 4.1: Fundamentos del ISP
+#### TEMA 4.1. Fundamentos del ISP
 
 **Objetivo del Tema**: Comprender segregación de interfaces y acoplamiento
 
@@ -466,7 +466,7 @@ graph TD
 **Duración**: 15 horas
 **Objetivo**: Diseñar arquitecturas desacopladas invirtiendo dependencias hacia abstracciones, aplicando Dependency Injection e IoC
 
-#### TEMA 5.1: Fundamentos del DIP
+#### TEMA 5.1. Fundamentos del DIP
 
 **Objetivo del Tema**: Comprender inversión de dependencias y desacoplamiento
 
@@ -589,7 +589,7 @@ graph TD
 **Duración**: 14 horas
 **Objetivo**: Integrar múltiples principios SOLID aplicando patrones de diseño GoF en arquitecturas JavaScript
 
-#### TEMA 6.1: Patrones Creacionales
+#### TEMA 6.1. Patrones Creacionales
 
 **Objetivo del Tema**: Aplicar patrones creacionales respetando SOLID
 
@@ -680,7 +680,7 @@ graph TD
 **Duración**: 12 horas
 **Objetivo**: Validar cumplimiento de SOLID mediante TDD, diseñando tests que guíen hacia arquitecturas limpias
 
-#### TEMA 7.1: TDD como Driver de Diseño
+#### TEMA 7.1. TDD como Driver de Diseño
 
 **Objetivo del Tema**: Comprender relación entre TDD y principios SOLID
 
@@ -771,7 +771,7 @@ graph TD
 **Duración**: 10 horas
 **Objetivo**: Diagnosticar violaciones SOLID en código legacy y ejecutar refactorizaciones sistemáticas priorizadas
 
-#### TEMA 8.1: Análisis de Código Legacy
+#### TEMA 8.1. Análisis de Código Legacy
 
 **Objetivo del Tema**: Diagnosticar problemas de diseño en código existente
 
@@ -850,7 +850,7 @@ graph TD
 **Duración**: 8 horas
 **Objetivo**: Diseñar arquitecturas enterprise aplicando SOLID a nivel de módulos y capas
 
-#### TEMA 9.1: Clean Architecture
+#### TEMA 9.1. Clean Architecture
 
 **Objetivo del Tema**: Aplicar Clean Architecture con SOLID
 
